@@ -365,26 +365,6 @@ td {
 .search-close:hover::after {
   transform: rotate(0);
 }
-@-moz-keyframes avatar-turn {
-  100% {
-    transform: rotate(1turn);
-  }
-}
-@-webkit-keyframes avatar-turn {
-  100% {
-    transform: rotate(1turn);
-  }
-}
-@-o-keyframes avatar-turn {
-  100% {
-    transform: rotate(1turn);
-  }
-}
-@keyframes avatar-turn {
-  100% {
-    transform: rotate(1turn);
-  }
-}
 .container {
   display: flex;
   overflow: hidden; /* !!! */
