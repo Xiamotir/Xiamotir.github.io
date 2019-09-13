@@ -1559,6 +1559,14 @@ td {
   cursor: zoom-out;
   will-change: transform;
 }
+.comments {
+  margin: 1.5rem 0 0;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  float: left;
+}
 .copy-button {
   position: absolute;
   top: 0;
