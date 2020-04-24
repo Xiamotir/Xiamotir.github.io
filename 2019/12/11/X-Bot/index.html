@@ -1,0 +1,333 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="keywords" content="Xiamo, ▍夏沫之殇"><meta name="description" content="煤专自动化的高级挖煤人"><title>分类 | ▍夏沫之殇</title><link rel="icon" href="/images/icons/favicon-16x16.png?v=1.4.1" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=1.4.1" type="image/png" sizes="32x32"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=1.4.1"><link rel="dns-prefetch" href="https://tajs.qq.com"><script>(function() {
+  var hm = document.createElement('script');
+  hm.src = 'https://tajs.qq.com/stats?sId=66470668';
+  hm.async = true;
+
+  if (false) { hm.setAttribute('data-pjax', ''); }
+
+  var s = document.getElementsByTagName('script')[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();</script><script>var Stun = window.Stun || {};
+var CONFIG = {
+  root: '/',
+  algolia: undefined,
+  fontawesome: {"prefix":"fa"},
+  sidebar: {"offsetTop":"20px","renderTocDepth":4},
+  back2top: {"enable":true},
+  reward: false,
+  fancybox: false,
+  zoom_image: {"enable":true,"mask_color":"rgba(0,0,0,0.6)"},
+  gallery_waterfall: undefined,
+  lazyload: undefined,
+  external_link: {"icon":{"enable":true,"name":"external-link"}},
+  shortcuts: {"switch_post":false},
+  prompt: {"copy_success":"复制成功","copy_error":"复制失败","creative_commons":"知识共享","copy_button":"点击复制"}
+};
+
+window.CONFIG = CONFIG;</script></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav"><div class="header-nav-inner"><div class="header-nav-btn fa fa-bars"></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__a" href="/"><i class="fa fa-home"></i>首页</a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__a" href="/archives/"><i class="fa fa-folder-open"></i>归档</a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__a" href="/categories/"><i class="fa fa-th"></i>分类</a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__a" href="/tags/"><i class="fa fa-tags"></i>标签</a></div></div><div class="header-nav-search"><i class="fa fa-search"></i><span>搜索</span></div></div></nav><div class="header-info"><div class="header-info-inner"><div class="header-info-title">▍夏沫之殇</div><div class="header-info-subtitle">Welcome !</div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content"><div class="post"><header class="post-header"><h1 class="post-header-title">X-Bot</h1><div class="post-header-meta"><span class="post-header-meta-create"><i class="fa fa-calendar-o"></i><span>发表于 </span><span>2019-12-11</span></span><span class="post-header-meta-update"><i class="fa fa-calendar-check-o"></i><span>更新于 </span><span>2020-04-24</span></span><span class="leancloud_visitors" id="/2019/12/11/X-Bot/" data-flag-title="X-Bot"><i class="fa fa-eye"></i><span>阅读次数 </span><span class="leancloud-visitors-count"></span></span></div></header><div class="post-body"><p><img src="https://img-blog.csdnimg.cn/20200424102109478.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTY3MDA4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<a id="more"></a>
+<h2 id="项目介绍"><span class="heading-link">项目介绍</span></h2><p><strong>这是一个超迷你写字机器人。</strong></p>
+<h2 id="整体展示"><span class="heading-link">整体展示</span></h2><p><img src="https://img-blog.csdnimg.cn/20200424102029730.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTY3MDA4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="关于机械臂"><span class="heading-link">关于机械臂</span></h2><p>那么CoreXY结构是什么东西呢？</p>
+<p>首先我们来了解一下目前比较流行的机械臂结构有哪些：</p>
+<h3 id="最经典的XYZ结构"><span class="heading-link">最经典的XYZ结构</span></h3><p><img src="https://img-blog.csdnimg.cn/20200424102922437.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTY3MDA4,size_16,color_FFFFFF,t_70" alt="\[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-Sq0njRF2-1587695201756)(img/xbot2.jpg)\]"></p>
+<p><img src="https://img-blog.csdnimg.cn/20200424103009624.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTY3MDA4,size_16,color_FFFFFF,t_70" alt="\[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-4oRA6vWa-1587695201799)(img/xbot4.jpg)\]"></p>
+<p>这一类结构大家应该一眼就能看明白是怎么回事，简单说就是在X、Y、Z三个方向上都是独立的直线运动，虽然形式有多种比如图中的第一种被称作龙门式，一般在雕刻机领域用的很多；而第二种在比较追求小型化的3D打印机上经常可以看到其身影。</p>
+<p>XYZ结构的好处就结构非常简单，控制也很简单，由于三个方向上的运动都是解耦的（一个方向的运动不会影响到另一个方向），而且相对来说由于是纯线性驱动，其运动精度会比较容易控制。</p>
+<h3 id="DELTA结构"><span class="heading-link">DELTA结构</span></h3><p><img src="https://img-blog.csdnimg.cn/20200424103156477.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTY3MDA4,size_16,color_FFFFFF,t_70" alt="\[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-838w1t5X-1587695201809)(img/xbot5.jpg)\]"></p>
+<p>由于我们身处三维空间，因此来说只要是三个<em>线性独立</em>的向量都可以用来表征空间中一个唯一的坐标，对应于机械臂中，就是说只要我有三个可以精确驱动控制的电机，我就可以玩出各种花样让一个机械臂精确地运动到某一点。在XYZ结构中，X、Y、Z三个电机的地位并不是对等的，而DELTA结构则以一种很巧妙的方式完全对称地放置三个电机，如上图所示。通过三根连杆两端一共六个万向关节的约束，DELTA机械臂的末端可以运动到三维空间中的任意一点（在行程范围内，且行程空间并不是和XYZ结构一样的一个立方体），这种结构的好处就是非常的<strong>炫酷</strong>，哈哈，其实几年前个人最早决定设计自己的3D打印机的时候，就对DELTA结构非常的热衷~由于杠杆效应，一般来说这类机械臂的运行速度都要比XYZ要快一些，同时由于非线性控制坐标解算需要消耗更多的计算资源，有兴趣的同学可以去了解一下DELTA结构到XYZ坐标的解算公式推导过程。</p>
+<h3 id="圆柱结构"><span class="heading-link">圆柱结构</span></h3><p><img src="https://img-blog.csdnimg.cn/20200424103417395.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTY3MDA4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>提到XYZ大家首先想到的是笛卡尔坐标系，然而我们在中学的时候就学过另一种坐标系叫极坐标系，也就是用一个角度和一个长度就可以表征平面内一个点的坐标，而且其跟XY坐标的转换也很方便。那么讲极坐标系再加上一个Z轴的直线运动，就得到了这样的圆柱结构机械臂。这类机械臂在实际应用中见到的比较少，因为同为极坐标结构，下面这种SCARA结构有着更“拟人”的效果。</p>
+<h3 id="SCARA结构"><span class="heading-link">SCARA结构</span></h3><p><img src="https://img-blog.csdnimg.cn/2020042410335334.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTY3MDA4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>这一类机械臂的结构非常像人类手臂（虽然自由度差了很多，人手臂应该是7个自由度），优点很明显就是节省空间，缺点也很明显，由于远端的误差放大作用，对于电机角度控制的精度要求非常高，电机的一点点抖动传递到末端都可能造成很大的误差，因此在工业机械臂中，这类机械臂一般都是使用传动误差极小的谐波减速器。</p>
+<h3 id="CoreXY结构"><span class="heading-link">CoreXY结构</span></h3><p>其实关于机械臂的结构还有各种各样，结构设计师们的脑洞实在是让人叹为观止，有兴趣的小伙伴可以去google一下国外的各种3D打印机作品，非常的有意思。这里只最后介绍一下X-Bot中采用的CoreXY结构。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200424103457103.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTY3MDA4,size_16,color_FFFFFF,t_70" alt="\[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-Nqam1vI0-1587695201823)(img/xbot7.jpg)\]"></p>
+<p>与传统XY结构不同，CoreXY是一种仅使用一根同步带就可以控制末端在XY两个方向运动的结构，非常巧妙；但是和绝大多数其他结构一样，CoreXY这种结构也会有电机和限位开关分散分布，电路连接走线比较麻烦的缺点；于是在其基础上，X-Bot改变了电机放置的位置，将其由两边放置改为中央放置，所有的电路板和电机集中布置，结构更紧凑。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200424103507201.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTY3MDA4,size_16,color_FFFFFF,t_70" alt="\[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-R4duoZEM-1587695201826)(img/xbot8.jpg)\]"></p>
+<h2 id="电路设计篇"><span class="heading-link">电路设计篇</span></h2><p>电路很简单就是一个STM32的最小系统，电机驱动直接使用了一体式的驱动器，可以tb搜索一下有很多。蓝牙模块使用的是HC-05，12V供电就行。<br><img src="https://img-blog.csdnimg.cn/20200424102052808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTY3MDA4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="固件篇"><span class="heading-link">固件篇</span></h2><p>直接移植了Arduino上面很成熟的grbl固件到STM32上，参数都已经设置好了，也把坐标转换函数从XY改为了CoreXY，keil直接烧录就能用了。</p>
+<h2 id="其他"><span class="heading-link">其他</span></h2><p>在资料中含有借鉴的所有资料</p>
+</div><footer class="post-footer"><div class="post-end"><span>------ </span><span>本文结束，感谢您的阅读</span><span> ------</span></div><div class="post-copyright"><div class="post-copyright-author"><span class="post-copyright-author-name">本文作者: </span><span class="post-copyright-author-value"><a href="http://yoursite.com">Xiamo</a></span></div><div class="post-copyright-link"><span class="post-copyright-link-name">本文链接: </span><span class="post-copyright-link-value"><a href="http://yoursite.com/2019/12/11/X-Bot/">http://yoursite.com/2019/12/11/X-Bot/</a></span></div><div class="post-copyright-notice"><span class="post-copyright-notice-name">版权声明: </span><span class="post-copyright-notice-value">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</span></div></div><div class="post-tags"><span class="post-tags-item"><i class="post-tags-item__i fa fa-tags"></i><a class="post-tags-item__a" href="http://yoursite.com/tags/DIY/">DIY</a></span></div><nav class="paginator"><div class="paginator-post"><div class="paginator-post-next"><a class="paginator-post-next__a" href="/2019/09/23/智能车/"><span>智能车</span><i class="fa fa-chevron-right"></i></a></div></div></nav></footer></div></div><div class="comments" id="comments"></div></div><aside class="sidebar" id="sidebar"><div class="sidebar-inner"><section class="sidebar-toc hide"></section><!-- ov = overview --><section class="sidebar-ov"><div class="sidebar-ov-author"><img class="sidebar-ov-author__img" src="/images/head.png" alt="avatar"><p class="sidebar-ov-author__p">煤专自动化的高级挖煤人</p></div><div class="sidebar-ov-social"><a class="sidebar-ov-social__item" href="https://github.com/" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><i class="sidebar-ov-social__item--icon fa fa-github"></i></a><a class="sidebar-ov-social__item" href="https://google.com/" target="_blank" rel="noopener" data-popover="Google" data-popover-pos="up"><i class="sidebar-ov-social__item--icon fa fa-google"></i></a><a class="sidebar-ov-social__item" href="1486597281" target="_blank" rel="noopener" data-popover="QQ" data-popover-pos="up"><i class="sidebar-ov-social__item--icon fa fa-qq"></i></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state__a posts" href="/archives/"><div class="sidebar-ov-state__a--count">3</div><div class="sidebar-ov-state__a--name">归档</div></a><a class="sidebar-ov-state__a categories" href="/categories/"><div class="sidebar-ov-state__a--count">0</div><div class="sidebar-ov-state__a--name">分类</div></a><a class="sidebar-ov-state__a tags" href="/tags/"><div class="sidebar-ov-state__a--count">3</div><div class="sidebar-ov-state__a--name">标签</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg" alt="知识共享"></a></div></section></div></aside><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>&copy; 2020</span><span class="fa fa-heart footer-icon"></span><span>Xiamo.</span></div><div><span>由 <a href="http://hexo.io/" title="hexo" target="_blank" rel="noopener">hexo</a> 强力驱动</span><span> v3.9.0.</span><span class="separator">|</span><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="stun" target="_blank" rel="noopener">stun</a></span><span> v1.4.1.</span></div><div><span>Hosted by Github Pages</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="progress"></div></div><div class="back2top" id="back2top"><div data-popover="回到顶部" data-popover-pos="up"><i class="back2top-icon fa fa-rocket"></i></div></div></div><div class="search-mask"></div><div class="search-popup"><span class="search-close"></span><div class="search-input"><input placeholder="搜索文章"></div><div class="search-results"></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@latest/canvas-nest.min.js" color="0,191,255" opacity="0.3" count="99" zindex="-1"></script><script>window.addEventListener('DOMContentLoaded', function () {
+  $('.header-nav-search').on('click', function (e) {
+    e.stopPropagation();
+
+    $('body').css('overflow', 'hidden');
+    $('.search-popup')
+      .addClass('show')
+      .velocity('stop')
+      .velocity('transition.expandIn', {
+        duration: 300,
+        complete: function () {
+          $('.search-popup input').focus();
+        }
+      });
+    $('.search-mask')
+      .velocity('stop')
+      .velocity('transition.fadeIn', {
+        duration: 300
+      });
+    
+    initSearch();
+  });
+
+  $('.search-mask, .search-close').on('click', function () {
+    closeSearch();
+  });
+
+  $(document).on('keydown', function (e) {
+    // Escape <=> 27
+    if (e.keyCode === Stun.utils.codeToKeyCode('Escape')) {
+      closeSearch();
+    }
+  });
+
+  var isXML = true;
+  var search_path = 'search.json';
+  
+  if (!search_path) {
+    search_path = 'search.xml';
+  } else if (/json$/i.test(search_path)) {
+    isXML = false;
+  }
+  
+  var path = '/' + search_path;
+
+  function initSearch() {
+    $.ajax({
+      url: path,
+      dataType: isXML ? 'xml' : 'json',
+      async: true,
+      success: function (res) {
+        var datas = isXML ? $('entry', res).map(function () {
+          // 将 XML 转为 JSON
+          return {
+            title: $('title', this).text(),
+            content: $('content', this).text(),
+            url: $('url', this).text()
+          };
+        }).get() : res;
+
+        var $input = $('.search-input input');
+        var $result = $('.search-results');
+
+        // 搜索对象（标题、内容）的权重，影响显示顺序
+        var WEIGHT = { title: 100, content: 1 };
+
+        var searchPost = function () {
+          var searchText = $input.val().toLowerCase().trim();
+          // 根据空白字符分隔关键字
+          var keywords = searchText.split(/[\s]+/);
+          // 搜索结果
+          var matchPosts = [];
+
+          // 有多个关键字时，将原文字整个保存下来
+          if (keywords.length > 1) {
+            keywords.push(searchText);
+          }
+          
+          // 防止未输入字符时搜索
+          if (searchText.length > 0) {
+            datas.forEach(function (data) {
+              var isMatch  = false;
+              
+              // 没有标题的文章使用预设的 i18n 变量代替
+              var title = (data.title && data.title.trim()) || '( 文章无标题 )';
+              var titleLower = title && title.toLowerCase();
+              // 删除 HTML 标签 和 所有空白字符
+              var content = data.content && data.content.replace(/<[^>]+>|\s+/, '');
+              var contentLower = content && content.toLowerCase();
+              // 删除重复的 /
+              var postURL = data.url && decodeURI(data.url).replace(/\/{2,}/, '/');
+              
+              // 标题中匹配到的关键词
+              var titleHitSlice = [];
+              // 内容中匹配到的关键词
+              var contentHitSlice = [];
+
+              keywords.forEach(function (keyword) {
+                /**
+                  * 获取匹配的关键词的索引
+                  * @param {String} keyword 要匹配的关键字
+                  * @param {String} text 原文字
+                  * @param {Boolean} caseSensitive 是否区分大小写
+                  * @param {Number} weight 匹配对象的权重。权重大的优先显示
+                  * @return {Array}
+                  */
+                function getIndexByword (word, text, caseSensitive, weight) {
+                  if (!word || !text) return [];
+                  
+                  var startIndex = 0; // 每次匹配的开始索引
+                  var index = -1;     // 匹配到的索引值
+                  var result = [];    // 匹配结果
+
+                  if (!caseSensitive) {
+                    word = word.toLowerCase();
+                    text = text.toLowerCase();
+                  }
+
+                  while((index = text.indexOf(word, startIndex)) !== -1) {
+                    var hasMatch = false;
+
+                    // 索引位置相同的关键词，保留长度较长的
+                    titleHitSlice.forEach(function (hit) {
+                      if (hit.index === index && hit.word.length < word.length) {
+                        hit.word = word;
+                        hasMatch = true;
+                      }
+                    });
+                    startIndex = index + word.length;
+                    !hasMatch && result.push({ index: index, word: word, weight: weight });
+                  }
+
+                  return result;
+                }
+                
+                titleHitSlice = titleHitSlice.concat(
+                  getIndexByword(keyword, titleLower, false, WEIGHT.title));
+                contentHitSlice = contentHitSlice.concat(
+                  getIndexByword(keyword, contentLower, false, WEIGHT.content));
+              });
+              
+              var hitTitle = titleHitSlice.length;
+              var hitContent = contentHitSlice.length;
+
+              if (hitTitle > 0 || hitContent > 0) {
+                isMatch = true;
+              }
+
+              if (isMatch) {
+                ;[titleHitSlice, contentHitSlice].forEach(function (hit) {
+                  // 按照匹配文字的索引的递增顺序排序
+                  hit.sort(function (left, right) {
+                    return left.index - right.index;
+                  });
+                });
+                
+                /**
+                  * 给文本中匹配到的关键词添加标记，从而进行高亮显示
+                  * @param {String} text 原文本
+                  * @param {Array} hitSlice 匹配项的索引信息
+                  * @param {Number} start 开始索引
+                  * @param {Number} end 结束索引
+                  * @return {String}
+                  */
+                function highlightKeyword (text, hitSlice, start, end) {
+                  if (!text || !hitSlice || !hitSlice.length) return;
+
+                  var result = '';
+                  var startIndex = start;
+                  var endIndex = end;
+
+                  hitSlice.forEach(function (hit) {
+                    if (hit.index < startIndex) return;
+
+                    var hitWordEnd = hit.index + hit.word.length;
+
+                    result += text.slice(startIndex, hit.index);
+                    result += '<b>' + text.slice(hit.index, hitWordEnd) + '</b>';
+                    startIndex = hitWordEnd;
+                  });
+                  result += text.slice(startIndex, endIndex);
+
+                  return result;
+                }
+
+                var postData = {};
+                // 文章总的搜索权重
+                var postWeight = titleHitSlice.length * 100 + contentHitSlice.length;
+                // 标记匹配关键词后的标题
+                var postTitle = highlightKeyword(title, titleHitSlice, 0, title.length) || title;
+                // 标记匹配关键词后的内容
+                var postContent;
+                
+                // 截取匹配的第一个字符，前后共 200 个字符来显示
+                if (contentHitSlice.length > 0) {
+                  var firstIndex = contentHitSlice[0].index;
+                  var start = firstIndex > 20 ? firstIndex - 20 : 0;
+                  var end = firstIndex + 180;
+
+                  postContent = highlightKeyword(content, contentHitSlice, start, end);
+                } else { // 未匹配到内容，直接截取前 200 个字符来显示
+                  postContent = content.slice(0, 200);
+                }
+                
+                postData.title = postTitle;
+                postData.content = postContent;
+                postData.url = postURL;
+                postData.weight = postWeight;
+                matchPosts.push(postData);
+              }
+            });
+          }
+
+          var resultInnerHtml = '<ul>';
+          
+          // 按权重递增的顺序排序，使权重大的优先显示
+          matchPosts.sort(function (left, right) {
+            return right.weight - left.weight;
+          });
+          
+          matchPosts.forEach(function (post) {
+            resultInnerHtml += '<li><a class="search-results-title" href="' + post.url + '">';
+            resultInnerHtml += post.title;
+            resultInnerHtml += '</a><div class="search-results-content">';
+            resultInnerHtml += post.content;
+            resultInnerHtml += '</div></li>';
+          });
+          resultInnerHtml += '</ul>';
+          $result.html(resultInnerHtml);
+        };
+
+        $input.on('input', searchPost);
+        $input.on('keypress', function (e) {
+          if (e.keyCode === Stun.utils.codeToKeyCode('Enter')) {
+            searchPost();
+          }
+        });
+      }
+    });
+  }
+
+  function closeSearch () {
+    $('body').css('overflow', 'auto');
+    $('.search-popup')
+      .removeClass('show')
+      .velocity('stop')
+      .velocity('transition.expandOut', {
+        duration: 300
+      });
+    $('.search-mask')
+      .velocity('stop')
+      .velocity('transition.fadeOut', {
+        duration: 300
+      });
+  }
+}, false);</script><script src="https://cdn.jsdelivr.net/npm/leancloud-storage@latest/dist/av-min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script><script>function loadValine () {
+  var GUEST_INFO = ['nick', 'mail', 'link'];
+  var guest_info = 'nick,mail,link';
+
+  guest_info = guest_info.split(',').filter(function(item) {
+    return GUEST_INFO.indexOf(item) > -1;
+  });
+
+  new Valine({
+    el: '#comments',
+    appId: 'p5iuFn3pSX7LSAaEcGsoQQFn-gzGzoHsz',
+    appKey: 'LmSy8Dg2qx9cB8MFpfHXohSC',
+    notify: true,
+    verify: true,
+    placeholder: 'Just go go',
+    avatar: 'mp',
+    meta: guest_info,
+    pageSize: '10' || 10,
+    visitor: true,
+    recordIP: true,
+    lang: '' || 'zh-cn'
+  });
+}
+
+if (false) {
+  loadValine();
+} else {
+  window.addEventListener('DOMContentLoaded', loadValine, false);
+}</script><script src="/js/utils.js?v=1.4.1"></script><script src="/js/stun-boot.js?v=1.4.1"></script><script src="/js/scroll.js?v=1.4.1"></script><script src="/js/header.js?v=1.4.1"></script><script src="/js/sidebar.js?v=1.4.1"></script></body></html>
