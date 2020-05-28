@@ -1670,6 +1670,13 @@ td {
   background-color: #fff;
   float: left;
 }
+#gitalk-container {
+  width: 100%;
+}
+#gitalk-container .gt-meta {
+  margin-top: 0;
+  padding-top: 0;
+}
 .copy-button {
   position: absolute;
   top: 0;
